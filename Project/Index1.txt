@@ -1,0 +1,105 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Anoti </title>
+
+ <link rel="icon" href="Picture 1.png" type="image/gif" sizes="16x16">
+
+<style>
+
+body {
+    background-color: #f1f1f1;
+}
+
+
+div.static {
+    position: center;
+    border: 0.5px solid white;
+}
+
+.center {
+    margin: auto;
+    position: relative;
+    border: 0px solid #73AD21;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+img { 
+    width: 30%;
+    height: auto;
+}
+
+ .button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 70px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+ .button1 {
+    background-color: #008CBA; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button1 {border-radius: 8px;}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+p {
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+p1 {
+    font-family: verdana;
+
+}
+
+div.absolute {
+position: absolute;
+width: 99.8%;
+bottom: 290px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="absolute"><p> Learn the Basics of HTML Coding</p></div>
+
+<div class="container">
+<img src="Picture 1.png" alt="Logo" width="400" height="377">
+</div>
+
+
+<div class="center">
+<a class="button button1" href="index2.html"><span class="file:///E:/EPQ/Project/Index2.html"><p1>Start Now</p1></span></a>
+
+</div>
+</body>
+</html>
